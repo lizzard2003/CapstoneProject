@@ -1,0 +1,32 @@
+
+.page-header {
+    text-align: center;
+}
+
+div.page-2 {
+    text-align: center;
+}
+
+div.page-body {
+    text-align: center;
+    min-width: 250px;
+    font-size: large;
+
+}
+
+.check-exp {
+    font-size: medium;
+}
+
+.form-id {
+    margin-left: 4px;
+    width: 14px;
+    height: 15px;
+    font-size: 16px;
+}
+
+.btn-sub {
+    font-size: 16px;
+    font-family: "Arial Rounded MT Bold";
+
+}
