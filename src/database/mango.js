@@ -2,7 +2,7 @@
 
 const express = require('express');// conecting string
 const { MongoClient } = require('mongodb');
-let cs = "mongodb+srv://angelicliz03:<Key>@cluster0.gqadppj.mongodb.net/?retryWrites=true&w=majority"
+let cs = "mongodb+srv://angelicliz03:Cherfan85e!!@cluster0.gqadppj.mongodb.net/?retryWrites=true&w=majority"
 let db;
 let books;
 async function start() {
@@ -36,9 +36,6 @@ StartBooks.set("7", { id: "7", title: "What Would Buzzlightgear Do?", author: "O
 StartBooks.set("8", { id: "8", title: "The first time", author: "Cher", publisher: "Crazyness", isbn: "979-3456-3", avail: true, who: "", due: "" });
 StartBooks.set("9", { id: "9", title: "Dont Be Extra", author: "Fred Clause", publisher: "Google", isbn: "979741728-987654-0", avail: false, who: "Morty", due: "1/18/23" });
 StartBooks.set("10", { id: "10", title: "Game on", author: "Rickie James", publisher: "Houston Inc", isbn: "979-6-55628-0", avail: false, who: "Rick", due: "2/5/24" });
-
-
-
 
 
 //-----------------------check-id--------------------------------
